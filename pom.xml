@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
+    <groupId>org.sakaiproject.license</groupId>
+    <artifactId>ecl-2</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>Educational Community License, Version 2.0 (ECL-2.0)</name>
+    <description>License used by the Sakai project for the License Maven Plugin.</description>
+    <url>http://opensource.org/licenses/ECL-2.0</url>
+    <organization>
+        <name>Sakai Foundation</name>
+        <url>http://www.sakaiproject.org/sakai-foundation</url>
+    </organization>
+    <inceptionYear>2007</inceptionYear>
+    <licenses>
+        <license>
+            <name>ECL-2.0</name>
+            <url>http://opensource.org/licenses/ECL-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/ColinHebert/Sakai-License</url>
+        <connection>scm:git:git://github.com/ColinHebert/Sakai-License.git</connection>
+        <developerConnection>scm:git:git@github.com:ColinHebert/Sakai-License.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    <issueManagement>
+        <url>https://github.com/ColinHebert/Sakai-License/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+</project>
